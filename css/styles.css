@@ -6,7 +6,8 @@
   padding-top: 25px;
 }
 
-.navbar-brand { /* Company Name */
+/* Company Name */
+.navbar-brand { 
                   color: #000000 !important;
                   font-size: 1.5em;
                   text-transform: uppercase;
