@@ -35,7 +35,7 @@
 }
 
 /* Category Tiles */
-.category-tile {
+ div .category-tile {
   width: 1000px;
   color: #000000;
   font-weight: bold;
