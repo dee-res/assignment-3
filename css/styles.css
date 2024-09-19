@@ -1,4 +1,4 @@
-/**HEADER **/
+/** HEADER **/
 .navbar-default {
   background-color: #A0A0A0;
   border-radius: 0;
@@ -19,3 +19,7 @@
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
+
+/* Navbar Collapsable Button */
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000000, 
