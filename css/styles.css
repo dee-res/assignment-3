@@ -8,7 +8,7 @@
 
 /* Company Name */
 .navbar-default .navbar-brand { 
-                  color: #ffffff;
+                  color: #000000;
                   font-size: 1.5em;
                   text-transform: uppercase;
                   font-weight: bold;
@@ -22,7 +22,7 @@
 
 /* Navbar Collapsable Button */
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #000000;
+  border: 1px solid #ffffff;
     }
 /* Hide Desktop Menu */
 .navbar-default .navbar-nav>li>a {
