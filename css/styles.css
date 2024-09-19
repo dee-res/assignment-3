@@ -29,7 +29,5 @@
 @media (min-width: 768px) {
     .navbar-right {
         display: none;
-        float: right !important;
-        margin-right: -15px;
 }
 
