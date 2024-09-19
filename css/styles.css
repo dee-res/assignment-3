@@ -27,7 +27,7 @@
 /* Hide Desktop Menu */
 
 @media (min-width: 768px) {
-    .navbar-right {
+  .nav-list  .navbar-right {
         display: none;
 }
 
