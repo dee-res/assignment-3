@@ -26,7 +26,7 @@
     }
 /* Hide Desktop Menu */
 
-ul#nav-list.nav.navbar-nav.navbar-right @media (min-width: 768px) {
+.nav-list >.nav.navbar-nav >.navbar-right @media (min-width: 768px) {
         display: none;
 }
 
