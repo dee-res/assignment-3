@@ -26,7 +26,11 @@
     }
 /* Hide Desktop Menu */
 
-.nav-list >.nav.navbar-nav >.navbar-right @media (min-width: 768px) {
-        display: none;
+@media (min-width: 768px) {
+    .navbar-right {
+        float: right !important;
+        margin-right: -15px;
+    }
+}
 }
 
