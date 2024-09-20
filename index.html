@@ -8,25 +8,28 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
-
+<header>
+        <nav id="header-nav" class="navbar">
+            <a class="navbar-brand">Food, LLC</a>
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                        </button>
+                    </div>   
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="collapsable-nav">
+                        <ul class="nav navbar-nav visible-xs">
+                            <li><a class="text-center" href="#chicken">Chiken</a></li> 
+                            <li><a class="text-center" href="#beef">Beef</a></li> 
+                            <li><a class="text-center" href="#sushi">Sushi</a></li> 
+                        </ul>
+                    </div>
+        </nav>
+    </header>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light navbar-hidden bg-warning">
-        <div class="container-fluid">
-            <a class="navbar-brand fw-bold" href="#">Food, LLC</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu"
-                aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbar-menu">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center fw-bold d-block d-lg-none">
-                    <li class="nav-item"><a class="nav-link" href="#chicken">Chicken</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#beef">Beef</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#sushi">Sushi</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div></div>
+   <div></div>
     <div class="container-fluid">
         <h1 id="page-header" class="text-center mt-3 mb-4">Our Menu</h1>
     </div>
