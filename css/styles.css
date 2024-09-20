@@ -1,39 +1,33 @@
-/** HEADER **/
-
-
-/* Company Name */
-.navbar-default .navbar-brand { 
-                  color: #000000;
-                  font-size: 1.5em;
-                  text-transform: uppercase;
-                  font-weight: bold;
-                  margin top: 0;
-                  margin bottom: 0;
-                  line-height:.75;
-                 }
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: opacity 0.5s;
 }
 
-/* Navbar Collapsable Button */
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #ffffff;
-    }
-/* Hide Desktop Menu */
+.page-header {
+    text-align: center;
+}
 
-@media (min-width: 768px) {
-    .navbar-right {
-        float: right !important;
-        margin-right: -15px;
+#navbar-menu{
+    .nav-item:first-child {
+        margin-top: 15px;
+    }
+    .nav-item {
+        border: 2px solid #000;
+        border-radius: 5px;
+        margin: 5px 0;
+        background-color: #dd7b0c7e;
     }
 }
+
+.bg-section {
+    background-color:  #dd7b0c41;;
 }
 
-/* Category Tiles */
- div .category-tile {
-  width: 1000px;
-  color: #000000;
-  font-weight: bold;
-  
+.text-justify {
+    text-align: justify;
 }
-
