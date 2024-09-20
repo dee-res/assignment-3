@@ -1,5 +1,5 @@
 /** HEADER **/
-.navbar .container-sm, .navbar .container-xl, .navbar .container-xxl {
+.navbar {
     display: flex;
     flex-wrap: inherit;
     align-items: center;
