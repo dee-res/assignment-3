@@ -4,7 +4,7 @@
 }
 .navbar-brand, .navbar-brand:hover {
     font-weight: bold;
-    color: #000000;
+    color: #000000!important;
     font-size: 20px;
     font-family: 'Roboto Mono', 'sans-serif';
     align-items:end;
@@ -13,27 +13,27 @@
 #header-nav {
     border-radius: 0;
     border: 0;
-    background-color: #D3D3D3;
+    background-color: #D3D3D3!important;
 }
 
 ul li a {
-    color: #000000;
+    color: #000000!important;
     font-weight: 500;
 }
 div span.glyphicon {
-    color:000000;
+    color:000000!important;
     font-size: 16px;
 }
 h1 {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    color: #000000;
+    color: #000000!important;
 }
 .row{
     margin: 0;
 }
 .block {
-    background-color: #D3D3D3;
+    background-color: #D3D3D3!important;
     padding: 15px;
     /* height: 700px;  */
     position: relative;
