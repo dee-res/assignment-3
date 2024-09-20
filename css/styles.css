@@ -20,12 +20,12 @@ body {
         border: 2px solid #000;
         border-radius: 5px;
         margin: 5px 0;
-        background-color: #D3D3D3;
+        background-color: #D3D3D3!important;
     }
 }
 
 .bg-section {
-    background-color:  #D3D3D3;
+    background-color:  #D3D3D3!important;
 }
 
 .text-justify {
