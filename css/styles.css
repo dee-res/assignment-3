@@ -1,10 +1,5 @@
 /** HEADER **/
-.navbar {
-    display: flex;
-    flex-wrap: inherit;
-    align-items: center;
-    justify-content: space-between;
-}
+
 
 /* Company Name */
 .navbar-default .navbar-brand { 
