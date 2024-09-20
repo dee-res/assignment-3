@@ -50,7 +50,7 @@ p {
     right: 10px;
 }
 .btn-primary {
-    color: #fff;
+    color: #000000!important;
     background-color: #D3D3D3!important;
     border-color: #000000!important;
 }
