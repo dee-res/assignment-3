@@ -1,40 +1,51 @@
-body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+* {
+    box-sizing: border-box;
 }
-.navbar {
-    background-color: #D3D3D3!important; 
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    transition: opacity 0.5s;
+.navbar-brand, .navbar-brand:hover {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto Mono', 'sans-serif';
+    align-items:end;
 }
 
-.page-header {
-    text-align: center;
+#header-nav {
+    border-radius: 0;
+    border: 0;
+    background-color: rgb(62, 99, 168);
 }
 
-#navbar-menu{
-    .nav-item:first-child {
-        margin-top: 15px;
-    }
-    .nav-item {
-        border: 2px solid #000;
-        border-radius: 5px;
-        margin: 5px 0;
-        background-color: #D3D3D3!important;
-    }
+ul li a {
+    color: white;
+    font-weight: 500;
 }
-
-.bg-section {
-    background-color:  #D3D3D3!important;
+div span.glyphicon {
+    color:white;
+    font-size: 16px;
 }
-
-.text-justify {
-    text-align: justify;
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(10, 10, 151);
 }
-
-.btn-primary {
-    color: #000000!important;
-    background-color: #D3D3D3!important;
-    border-color: #000000!important;
+.row{
+    margin: 0;
+}
+.block {
+    background-color: rgb(186, 208, 255);
+    padding: 15px;
+    /* height: 700px;  */
+    position: relative;
+}
+#Block1, #Block2, #Block3 {
+    padding: 15px;
+}
+p {
+    font-size: 16px;
+}
+.toTop {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
 }
