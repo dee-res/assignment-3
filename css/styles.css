@@ -49,3 +49,8 @@ p {
     bottom: 5px;
     right: 10px;
 }
+.btn-primary {
+    color: #fff;
+    background-color: #D3D3D3!important;
+    border-color: #000000!important;
+}
