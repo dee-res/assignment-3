@@ -34,7 +34,7 @@ body {
 }
 
 .btn-primary {
-    color: #000000;
-    background-color: #D3D3D3;
-    border-color: #D3D3D3;
+    color: #000000!important;
+    background-color: #D3D3D3!important;
+    border-color: #D3D3D3!important;
 }
