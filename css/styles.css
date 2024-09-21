@@ -56,6 +56,6 @@ p {
     border: 1px solid #333!important;
 }
 
-.navbar-toggle .icon-bar+.icon-bar {
+.icon-bar {
     color: #000000!important;
 }
