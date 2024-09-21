@@ -52,10 +52,10 @@ p {
     border-color: #000000!important;
 }
 .navbar-toggle {
-    background-color: #999;
-    border: 1px solid #333;
+    background-color: #999!important;
+    border: 1px solid #333!important;
 }
 
 .navbar-toggle .icon-bar+.icon-bar {
-    color: #000000;
+    color: #000000!important;
 }
