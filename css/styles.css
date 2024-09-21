@@ -51,3 +51,11 @@ p {
     background-color: #D3D3D3!important;
     border-color: #000000!important;
 }
+.navbar-toggle {
+    background-color: #999;
+    border: 1px solid #333;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+    color: #000000;
+}
